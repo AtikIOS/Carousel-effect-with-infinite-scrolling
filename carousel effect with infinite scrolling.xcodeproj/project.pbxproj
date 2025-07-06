@@ -6,30 +6,33 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BE1969042E1AB0C600E492CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE1968FB2E1AB0C600E492CA /* Assets.xcassets */; };
+		BE1969062E1AB0C600E492CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE1968FE2E1AB0C600E492CA /* LaunchScreen.storyboard */; };
+		BE1969072E1AB0C600E492CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE1969002E1AB0C600E492CA /* Main.storyboard */; };
+		BE1969082E1AB0C600E492CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1968FA2E1AB0C600E492CA /* AppDelegate.swift */; };
+		BE1969092E1AB0C600E492CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1969012E1AB0C600E492CA /* SceneDelegate.swift */; };
+		BE19690A2E1AB0C600E492CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1969022E1AB0C600E492CA /* ViewController.swift */; };
+		BE1969112E1AB37100E492CA /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE1969102E1AB37100E492CA /* CollectionViewCell.xib */; };
+		BE1969122E1AB37100E492CA /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE19690F2E1AB37100E492CA /* CollectionViewCell.swift */; };
+		BE1969152E1AB65B00E492CA /* CarouselFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1969142E1AB65A00E492CA /* CarouselFlowLayout.swift */; };
+		BE1969172E1ABE2800E492CA /* DemoVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BE1969162E1ABE2800E492CA /* DemoVideo.mp4 */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		BE1968E22E1AB0BE00E492CA /* carousel effect with infinite scrolling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "carousel effect with infinite scrolling.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE1968FA2E1AB0C600E492CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE1968FB2E1AB0C600E492CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE1968FC2E1AB0C600E492CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE1968FD2E1AB0C600E492CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE1968FF2E1AB0C600E492CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE1969012E1AB0C600E492CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BE1969022E1AB0C600E492CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE19690F2E1AB37100E492CA /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		BE1969102E1AB37100E492CA /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		BE1969142E1AB65A00E492CA /* CarouselFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselFlowLayout.swift; sourceTree = "<group>"; };
+		BE1969162E1ABE2800E492CA /* DemoVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = DemoVideo.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		BE1968F42E1AB0BF00E492CA /* Exceptions for "carousel effect with infinite scrolling" folder in "carousel effect with infinite scrolling" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = BE1968E12E1AB0BE00E492CA /* carousel effect with infinite scrolling */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		BE1968E42E1AB0BE00E492CA /* carousel effect with infinite scrolling */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				BE1968F42E1AB0BF00E492CA /* Exceptions for "carousel effect with infinite scrolling" folder in "carousel effect with infinite scrolling" target */,
-			);
-			path = "carousel effect with infinite scrolling";
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BE1968DF2E1AB0BE00E492CA /* Frameworks */ = {
@@ -45,7 +48,7 @@
 		BE1968D92E1AB0BE00E492CA = {
 			isa = PBXGroup;
 			children = (
-				BE1968E42E1AB0BE00E492CA /* carousel effect with infinite scrolling */,
+				BE1969032E1AB0C600E492CA /* carousel effect with infinite scrolling */,
 				BE1968E32E1AB0BE00E492CA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +59,64 @@
 				BE1968E22E1AB0BE00E492CA /* carousel effect with infinite scrolling.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		BE1969032E1AB0C600E492CA /* carousel effect with infinite scrolling */ = {
+			isa = PBXGroup;
+			children = (
+				BE1969132E1AB65400E492CA /* Extention */,
+				BE19690B2E1AB0C800E492CA /* System */,
+				BE19690C2E1AB0D600E492CA /* View */,
+				BE19690D2E1AB0DF00E492CA /* Controller */,
+				BE1968FB2E1AB0C600E492CA /* Assets.xcassets */,
+				BE1968FC2E1AB0C600E492CA /* Info.plist */,
+				BE1968FE2E1AB0C600E492CA /* LaunchScreen.storyboard */,
+				BE1969162E1ABE2800E492CA /* DemoVideo.mp4 */,
+			);
+			path = "carousel effect with infinite scrolling";
+			sourceTree = "<group>";
+		};
+		BE19690B2E1AB0C800E492CA /* System */ = {
+			isa = PBXGroup;
+			children = (
+				BE1968FA2E1AB0C600E492CA /* AppDelegate.swift */,
+				BE1969012E1AB0C600E492CA /* SceneDelegate.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
+		BE19690C2E1AB0D600E492CA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BE19690E2E1AB35600E492CA /* CVcell */,
+				BE1969002E1AB0C600E492CA /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BE19690D2E1AB0DF00E492CA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BE1969022E1AB0C600E492CA /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BE19690E2E1AB35600E492CA /* CVcell */ = {
+			isa = PBXGroup;
+			children = (
+				BE19690F2E1AB37100E492CA /* CollectionViewCell.swift */,
+				BE1969102E1AB37100E492CA /* CollectionViewCell.xib */,
+			);
+			path = CVcell;
+			sourceTree = "<group>";
+		};
+		BE1969132E1AB65400E492CA /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				BE1969142E1AB65A00E492CA /* CarouselFlowLayout.swift */,
+			);
+			path = Extention;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,9 +133,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				BE1968E42E1AB0BE00E492CA /* carousel effect with infinite scrolling */,
 			);
 			name = "carousel effect with infinite scrolling";
 			packageProductDependencies = (
@@ -122,6 +180,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE1969042E1AB0C600E492CA /* Assets.xcassets in Resources */,
+				BE1969062E1AB0C600E492CA /* LaunchScreen.storyboard in Resources */,
+				BE1969112E1AB37100E492CA /* CollectionViewCell.xib in Resources */,
+				BE1969172E1ABE2800E492CA /* DemoVideo.mp4 in Resources */,
+				BE1969072E1AB0C600E492CA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,10 +195,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE1969082E1AB0C600E492CA /* AppDelegate.swift in Sources */,
+				BE1969092E1AB0C600E492CA /* SceneDelegate.swift in Sources */,
+				BE1969152E1AB65B00E492CA /* CarouselFlowLayout.swift in Sources */,
+				BE1969122E1AB37100E492CA /* CollectionViewCell.swift in Sources */,
+				BE19690A2E1AB0C600E492CA /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BE1968FE2E1AB0C600E492CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE1968FD2E1AB0C600E492CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		BE1969002E1AB0C600E492CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE1968FF2E1AB0C600E492CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BE1968F62E1AB0BF00E492CA /* Debug */ = {
